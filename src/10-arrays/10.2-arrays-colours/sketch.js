@@ -13,11 +13,10 @@ function setup() {
     color(152, 152, 152),
     color(106, 159, 58)
   ];
-  frameRate(2);
+  frameRate(10);
 }
 
 function draw() {
   let colorPicker = Math.floor(random(0, colours.length));
-  //background(colours[0]);
   background(colours[colorPicker]);
 }

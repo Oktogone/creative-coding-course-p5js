@@ -6,7 +6,7 @@ function setup() {
 function draw() {
   background(20);
   noStroke();
-  fill(255)
+  fill(250);
 
   //draw an ellipse at a random position
   let x = random(30, width);
