@@ -20,7 +20,7 @@ function setup() {
 function draw() {
   background(232, 227, 214);
   noStroke();
-
+  //randomSeed(1);
   //create a random number of rectangles
   let nbreRect = random(20, 40);
   for(let i = 0; i < nbreRect; i++){
