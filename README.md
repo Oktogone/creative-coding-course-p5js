@@ -37,7 +37,7 @@ _français_
     - 6. Géométrie & Transformations		
     - 7. Variables			
     - 8. Conditions & Comparateurs			
-    - 9	random() et map()			
+    - 9. random() et map()			
     - 10. Tableaux			
     - 11. Boucles			
     - 12. Projet : Matt DesLauriers			
