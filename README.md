@@ -1,4 +1,4 @@
-# MOOC - Creative coding with p5.js
+# Creative coding course with p5.js
 Asynchronous creative coding course using p5.js
 <br>Cours asynchrone de code créatif avec p5.js
 
