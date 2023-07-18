@@ -1,7 +1,7 @@
 # Creative coding course with p5.js
 Asynchronous creative coding course using p5.js
 <br>Cours asynchrone de code créatif avec p5.js
-
+-
 # Objectives / Objectifs
 _english_
 - Create and animate visuals with JavaScript / p5.js
