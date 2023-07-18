@@ -25,8 +25,8 @@ function draw() {
   let nbreRect = random(20, 40);
   for(let i = 0; i < nbreRect; i++){
     //pick and fill with a random colour
-    let colorPicker = Math.floor(random(0, colours.length));
-    let c = colours[colorPicker];
+    let colorSelector = Math.floor(random(0, colours.length));
+    let c = colours[colorSelector];
     fill(c);
 
     //generate random size and position

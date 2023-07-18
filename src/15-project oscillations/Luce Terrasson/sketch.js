@@ -1,17 +1,17 @@
 let marginX, marginY;
 let nbreLines, gapX, gapY;
-let totalWidth, totalHeight, lineHeight;
+let drawWidth, drawHeight, lineHeight;
 
 function setup() {
   createCanvas(600, 600);
   nbreLines = 120;
   marginX = 50;
   marginY = 50;
-  totalWidth = width - 2 * marginX;
-  gapX = totalWidth / nbreLines;
-  totalHeight = height - 2 * marginY;
-  lineHeight = totalHeight * 0.33;
-  gapY = (totalHeight - 3 * lineHeight) * 0.5;
+  drawWidth = width - 2 * marginX;
+  gapX = drawWidth / nbreLines;
+  drawHeight = height - 2 * marginY;
+  lineHeight = drawHeight * 0.33;
+  gapY = (drawHeight - 3 * lineHeight) * 0.5;
 }
 
 function draw() {
