@@ -4,8 +4,8 @@ function setup() {
   createCanvas(600, 600);
   rows = 5;
   cols = 5;
-  cellW = width / rows;
-  cellH = height / cols;
+  cellW = width / cols;
+  cellH = height / rows;
   frameRate(1);
 }
 

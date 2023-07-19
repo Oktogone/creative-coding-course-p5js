@@ -5,8 +5,8 @@ function setup() {
   createCanvas(600, 600);
   rows = 20;
   cols = 20;
-  cellW = width / rows;
-  cellH = height / cols;
+  cellW = width / cols;
+  cellH = height / rows;
   noiseScale = 0.15;
 }
 

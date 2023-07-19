@@ -10,8 +10,8 @@ function setup() {
   marginY = 50;
   drawWidth = width - 2 * marginX;
   drawheight = height - 2 * marginY;
-  cellW = drawWidth / rows;
-  cellH = drawheight / cols;
+  cellW = drawWidth / cols;
+  cellH = drawheight / rows;
   noiseScaleXY = 0.05;
   noiseScaleZ = 0.15;
 }

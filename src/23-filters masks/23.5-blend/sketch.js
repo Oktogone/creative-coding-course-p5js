@@ -12,7 +12,6 @@ function setup() {
 }
 
 function draw() {
-
   image(imgBg, 0, 0);
   //blendMode(ADD);
   //blendMode(EXCLUSION);

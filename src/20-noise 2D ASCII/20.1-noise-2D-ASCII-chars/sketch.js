@@ -6,8 +6,8 @@ function setup() {
   createCanvas(600, 600);
   rows = 50;
   cols = 50;
-  cellW = width / rows;
-  cellH = height / cols;
+  cellW = width / cols;
+  cellH = height / rows;
   noiseScale = 0.15;
   font = loadFont("../../assets/IBMPlexMono-Regular.otf");
   textFont(font);
