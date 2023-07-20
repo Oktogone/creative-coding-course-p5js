@@ -17,11 +17,10 @@ function draw() {
     for (let j = 0; j < rows; j++) {
       let n = noise(i, j);
       let brightness = n * 255;
-      push();
-      translate(i * cellW, j * cellH);
+      let x = i * cellW;
+      let y = j * cellH;
       fill(brightness);
-      rect(0, 0, cellW, cellH);
-      pop();
+      rect(x, y, cellW, cellH);
     }
   }
 }

@@ -2,7 +2,7 @@ let img;
 let rows, cols, cellH, cellW;
 
 function preload(){
-  img = loadImage("../../assets/Northeaster by Winslow Homer.jpg");
+  img = loadImage("../../assets/images/Northeaster by Winslow Homer.jpg");
 }
 
 function setup() {
@@ -20,15 +20,12 @@ function draw() {
     for (let j = 0; j < rows; j++) {
       let x = i * cellW;
       let y = j * cellH;
-      push();
-      translate(x, y);
       let c = img.get(x, y);
-      let b = map(brightness(c), 0, 100, 0, 255)
+      let b = map(brightness(c), 0, 100, 0, 255);
       let threshold = map(mouseY, 0, height, 0, 255);
       if(b > threshold) fill(250);
       else fill(20);
-      rect(0, 0, cellW, cellH);
-      pop();
+      rect(x, y, cellW, cellH);
     }
   }
 }

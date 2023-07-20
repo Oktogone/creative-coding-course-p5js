@@ -1,8 +1,8 @@
 let imgBg, imgTop;
 
 function preload(){
-  imgBg = loadImage("../../assets/Northeaster by Winslow Homer.jpg");
-  imgTop = loadImage("../../assets/Woman with green shawl by Cyprien Eugene Boulet.jpg");
+  imgBg = loadImage("../../assets/images/Northeaster by Winslow Homer.jpg");
+  imgTop = loadImage("../../assets/images/Woman with green shawl by Cyprien Eugene Boulet.jpg");
 }
 
 function setup() {

@@ -1,9 +1,9 @@
 let video;
 let rows, cols, cellH, cellW;
-let chars = " ._▂▃▄▅▆▇░▒▓█";
+let chars, font;
 
 function preload(){
-  font = loadFont("../../assets/IBMPlexMono-Regular.otf");
+  font = loadFont("../../assets/font/IBMPlexMono-Regular.ttf");
 }
 
 function setup() {
@@ -17,6 +17,7 @@ function setup() {
   textFont(font);
   textSize(cellH);
   video.hide();
+  chars = " ._▂▃▄▅▆▇░▒▓█";
 }
 
 function draw() {

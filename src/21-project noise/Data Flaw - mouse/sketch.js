@@ -24,12 +24,12 @@ function draw() {
   translate(marginX, marginY);
   for (let i = 0; i < cols; i++) {
     for (let j = 0; j < rows; j++) {
-      let localX = i * cellW + cellW * 0.5;
-      let localY = j * cellH + cellH * 0.5;
-      let d = dist(mouseX, mouseY, localX, localY);
+      let x = i * cellW + cellW * 0.5;
+      let y = j * cellH + cellH * 0.5;
+      let d = dist(mouseX, mouseY, x, y);
       let scaleFactor = map(d, 0, 600, 0.8, 0);
       push();
-      translate(localX, localY);
+      translate(x, y);
       scale(scaleFactor);
       drawHexagon();
       pop();

@@ -1,10 +1,10 @@
 let img;
 let rows, cols, cellH, cellW;
-let chars = " ._▂▃▄▅▆▇░▒▓█";
+let chars;
 
 function preload(){
-  img = loadImage("../../assets/Northeaster by Winslow Homer.jpg");
-  font = loadFont("../../assets/IBMPlexMono-Regular.otf");
+  img = loadImage("../../assets/images/Northeaster by Winslow Homer.jpg");
+  font = loadFont("../../assets/font/IBMPlexMono-Regular.ttf");
 }
 
 function setup() {
@@ -16,6 +16,7 @@ function setup() {
   cellH = height / rows;
   textFont(font);
   textSize(cellH);
+  chars = " ._▂▃▄▅▆▇░▒▓█";
 }
 
 function draw() {
@@ -29,11 +30,8 @@ function draw() {
       let c = img.get(x, y);
       let b = brightness(c);
       let charSelector = int(map(b, 0, 100, chars.length, 0));
-      push();
-      translate(x, y);
       fill(20);
-      text(chars.charAt(charSelector), 0, 0);
-      pop();
+      text(chars.charAt(charSelector), x, y);
     }
   }
 }

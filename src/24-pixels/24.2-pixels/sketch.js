@@ -1,7 +1,7 @@
 let img;
 
 function preload(){
-  img = loadImage("../../assets/Northeaster by Winslow Homer.jpg");
+  img = loadImage("../../assets/images/Northeaster by Winslow Homer.jpg");
 }
 
 function setup() {

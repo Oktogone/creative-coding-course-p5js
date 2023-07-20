@@ -20,11 +20,10 @@ function draw() {
       let n = noise(i * noiseScale, j * noiseScale, radians(frameCount)* noiseScale);
       //let brightness = n * 255;
       let brightness = constrain(pow(20 * n, 2), 0, 255);
-      push();
-      translate(i * cellW, j * cellH);
+      let x = i * cellW;
+      let y = j * cellH;
       fill(brightness);
-      rect(0, 0, cellW, cellH);
-      pop();
+      rect(x, y, cellW, cellH);
     }
   }
 }
