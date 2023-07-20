@@ -1,1 +1,1 @@
-All shader code from this folder was sourced from **Adam Ferriss** on <a href="https://github.com/aferriss/p5jsShaderExamples">
+All shader code from this folder was sourced from **Adam Ferriss** on [https://github.com/aferriss/p5jsShaderExamples]("https://github.com/aferriss/p5jsShaderExamples")
