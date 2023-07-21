@@ -3,8 +3,10 @@ html, body {
   padding: 0;
 }
 
-canvas{
+body{
   position:absolute;
   top:0;bottom:0;right:0;left:0;
   margin:auto;
+  width: 600px;
+  height: 600px;
 }
