@@ -20,6 +20,6 @@ function draw() {
   push();
   translate(width * 0.5, height * 0.5);
   scale(2);
-  ellipse(0, 0, 100, 100);
+  rect(0, 0, 100, 100);
   pop();
 }

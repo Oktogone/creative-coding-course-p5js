@@ -6,10 +6,8 @@ function setup() {
 
 function draw() {
   background(250);
-  push();
-  //rotate and draw the rectangle
+  //rotate and draw the rectangle in the middle of the screen
   rotate(radians(frameCount));
   fill(20);
   rect(width * 0.5, height * 0.5, 20, 300);
-  pop();
 }
