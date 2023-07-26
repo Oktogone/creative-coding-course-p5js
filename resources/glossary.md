@@ -56,10 +56,18 @@ mouseY
 
 **glossary**
 
+abscissa
+
 canvas
 
 fps
 
+ordinate
+
+variable
+
 sketch
+
+
 
 
