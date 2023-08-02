@@ -4,7 +4,15 @@ background()
 
 beginShape()
 
+color()
+
+cos()
+
+splice()
+
 console.log()
+
+dist()
 
 draw()
 
@@ -18,6 +26,20 @@ frameRate()
 
 line()
 
+map()
+
+noise()
+
+pop() (p5.js specific)
+
+pop() (arrays in javascript)
+
+push() (p5.js specific)
+
+push() (arrays in javascript)
+
+random()
+
 rect()
 
 rectMode()
@@ -25,6 +47,10 @@ rectMode()
 rotate()
 
 setup()
+
+sin()
+
+splice()
 
 stroke()
 
@@ -49,6 +75,8 @@ vertex()
 
 frameCount
 
+length
+
 mouseX
 
 mouseY
@@ -58,16 +86,20 @@ mouseY
 
 abscissa
 
+argument
+
 canvas
 
+condition
+
 fps
+
+function
+
+loop
 
 ordinate
 
 variable
 
 sketch
-
-
-
-

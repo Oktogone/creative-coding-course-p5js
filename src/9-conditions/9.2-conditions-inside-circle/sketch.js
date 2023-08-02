@@ -1,6 +1,5 @@
 function setup() {
   createCanvas(600, 600);
-  noStroke();
 }
 
 function draw() {
@@ -16,5 +15,6 @@ function draw() {
     fill(0, 200, 80);
     background(255, 100, 0);
   }
+  stroke(20);
   ellipse(width * 0.5, height * 0.5, 200, 200);
 }

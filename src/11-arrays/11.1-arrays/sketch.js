@@ -12,6 +12,4 @@ let scores = [];
 scores.push(2);
 scores[0];
 scores.pop();
-
-players.splice(0, 3);
-players.splice(3);
+scores.length;

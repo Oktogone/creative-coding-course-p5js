@@ -16,6 +16,6 @@ function draw() {
   ellipse(width * 0.5, height * 0.5, 200, 200);
 
   //draw a line to split the screen
-  stroke(255, 0, 0);
+  stroke(20);
   line(0, height * 0.5, width, height * 0.5);
 }

@@ -9,6 +9,7 @@ function draw() {
   fill(20);
   for(let i = 0; i < width; i += 2){
     let angle = map(i, 0, width, 0, 4 * PI);
-    ellipse(i, 100 * sin(angle), 2, 2);
+    let y = 100 * sin(angle)
+    ellipse(i, y, 2, 2);
   }
 }
