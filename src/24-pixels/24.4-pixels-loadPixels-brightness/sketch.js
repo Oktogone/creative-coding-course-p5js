@@ -16,13 +16,14 @@ function draw() {
   let x = int(mouseX);
   let y = int(mouseY);
   let index = (x + y * img.width) * 4;
-  let c = [
+  let c = color(
     img.pixels[index],
     img.pixels[index + 1],
     img.pixels[index + 2],
     img.pixels[index + 3]
-  ];
-  fill(c[0], c[1], c[2]);
+  );
+  let b = map(brightness(c), 0, 100, 0, 255);
+  fill(b);
   noStroke();
   rect(width * 0.5, height * 0.5, 100, 100);
 }

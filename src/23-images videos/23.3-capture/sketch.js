@@ -1,13 +1,13 @@
-let capture;
+let video;
 
 function setup() {
-  capture = createCapture(VIDEO, function(){
-    createCanvas(capture.width, capture.height);
-  });
-  capture.hide();
+  createCanvas(600, 600);
+  video = createCapture(VIDEO);
+  video.size(width, height);
+  video.hide();
 }
 
 function draw() {
   background(20);
-  image(capture, 0, 0);
+  image(video, 0, 0);
 }

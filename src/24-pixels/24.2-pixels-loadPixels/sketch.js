@@ -12,11 +12,17 @@ function setup() {
 
 function draw() {
   image(img, 0, 0);
-  let c = img.get(mouseX, mouseY);
-  let r = red(c);
-  let g = green(c);
-  let b = blue(c);
-  fill(r, g, b);
+  img.loadPixels();
+  let x = int(mouseX);
+  let y = int(mouseY);
+  let index = (x + y * img.width) * 4;
+  let c = color(
+    img.pixels[index],
+    img.pixels[index + 1],
+    img.pixels[index + 2],
+    img.pixels[index + 3]
+  );
+  fill(c);
   noStroke();
   rect(width * 0.5, height * 0.5, 100, 100);
 }

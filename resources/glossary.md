@@ -4,9 +4,17 @@ background()
 
 beginShape()
 
+brightness()
+
 color()
 
 cos()
+
+createCapture()
+
+createVideo()
+
+resize()
 
 splice()
 
@@ -24,7 +32,13 @@ fill()
 
 frameRate()
 
+image()
+
 line()
+
+loadFont()
+
+loadImage()
 
 map()
 
@@ -33,6 +47,8 @@ noise()
 pop() (p5.js specific)
 
 pop() (arrays in javascript)
+
+preload()
 
 push() (p5.js specific)
 
@@ -75,11 +91,15 @@ vertex()
 
 frameCount
 
+height
+
 length
 
 mouseX
 
 mouseY
+
+width
 
 
 **glossary**
@@ -99,6 +119,8 @@ function
 loop
 
 ordinate
+
+pixel
 
 variable
 

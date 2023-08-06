@@ -1,6 +1,6 @@
 let img;
 let rows, cols, cellH, cellW;
-let colours;
+let chars;
 
 function preload(){
   img = loadImage("../../assets/images/Northeaster by Winslow Homer.jpg");
@@ -13,25 +13,23 @@ function setup() {
   cols = 60;
   cellW = width / cols;
   cellH = height / rows;
-  colours = [
-    color(20),
-    color(0, 0, 255),
-    color(0, 250, 100),
-    color(250)
-  ];
+  textSize(cellH);
+  chars = " ._:-+cab@XWÑ";
 }
 
 function draw() {
+  background(20);
   noStroke();
+
   for (let i = 0; i < cols; i++) {
     for (let j = 0; j < rows; j++) {
-      let x = i * cellW;
-      let y = j * cellH;
+      let x = i * cellW + cellW * 0.5;
+      let y = j * cellH + cellH * 0.5;
       let c = img.get(x, y);
       let b = brightness(c);
-      let colorSelector = int(map(b, 0, 100, colours.length, 0));
-      fill(colours[colorSelector]);
-      rect(x, y, cellW, cellH);
+      let charSelector = int(map(b, 0, 100, chars.length, 0));
+      fill(250);
+      text(chars.charAt(charSelector), x, y);
     }
   }
 }
