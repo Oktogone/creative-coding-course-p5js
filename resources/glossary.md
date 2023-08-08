@@ -4,6 +4,8 @@ background()
 
 beginShape()
 
+blendMode()
+
 brightness()
 
 color()
@@ -20,6 +22,8 @@ splice()
 
 console.log()
 
+createGraphics()
+
 dist()
 
 draw()
@@ -29,6 +33,8 @@ ellipse()
 endShape()
 
 fill()
+
+filter()
 
 frameRate()
 
@@ -40,7 +46,11 @@ loadFont()
 
 loadImage()
 
+loadShader()
+
 map()
+
+mask()
 
 noise()
 
@@ -62,7 +72,11 @@ rectMode()
 
 rotate()
 
+setUniform()
+
 setup()
+
+shader()
 
 sin()
 
@@ -108,9 +122,13 @@ abscissa
 
 argument
 
+blend mode
+
 canvas
 
 condition
+
+filter
 
 fps
 
@@ -118,10 +136,16 @@ function
 
 loop
 
+mask
+
 ordinate
+
+p5.Graphics
 
 pixel
 
-variable
+shader
 
 sketch
+
+variable

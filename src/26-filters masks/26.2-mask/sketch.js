@@ -13,6 +13,7 @@ function setup() {
 function draw() {
   background(20);
   buffer.clear();
+  noStroke();
   buffer.ellipse(width * 0.5, height * 0.5, 300, 300);
 
   // load all the pixels of the image to mask it with buffer

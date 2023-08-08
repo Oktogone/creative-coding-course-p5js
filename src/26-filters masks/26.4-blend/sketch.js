@@ -17,8 +17,9 @@ function draw() {
   //blendMode(EXCLUSION);
   //blendMode(MULTIPLY);
   //blendMode(SCREEN);
-  //blendMode(OVERLAY);
-  blendMode(BURN);
+  blendMode(OVERLAY);
+  //blendMode(ADD);
+  fill(255, 0, 0);
   image(imgTop, 0, 0);
   blendMode(BLEND);
 }
