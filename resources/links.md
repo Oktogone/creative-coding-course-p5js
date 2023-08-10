@@ -17,8 +17,6 @@ https://natureofcode.com/
 
 https://thecodingtrain.com/
 
-https://www.shadertoy.com/view/Xd3GRf
-
 **blogs**
 
 https://www.creativeapplications.net/

@@ -17,6 +17,6 @@ function toggleAudio() {
   else audio.play();
 }
 
-function keyTyped() {
+function keyPressed() {
   toggleAudio();
 }

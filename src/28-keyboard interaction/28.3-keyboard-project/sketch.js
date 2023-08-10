@@ -35,15 +35,12 @@ function drawCharacter(k){
   pop();
 }
 
-function keyTyped() {
-  if ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90)) {
-    drawCharacter(key);
-  }
-}
-
 function keyPressed(){
   if(keyCode === DELETE || keyCode === BACKSPACE){
     clear();
     background(189, 213, 240);
+  }
+  if ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90)) {
+    drawCharacter(key);
   }
 }

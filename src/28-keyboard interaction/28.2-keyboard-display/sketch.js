@@ -18,7 +18,7 @@ function drawCharacter(k){
   text(k.toUpperCase(), width * 0.5, height * 0.5);
 }
 
-function keyTyped() {
+function keyPressed() {
   if ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90)) {
     drawCharacter(key);
   }

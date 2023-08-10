@@ -38,7 +38,17 @@ filter()
 
 frameRate()
 
+getLevel()
+
+httpGet()
+
 image()
+
+isPlaying()
+
+keyPressed()
+
+keyReleased()
 
 line()
 
@@ -48,11 +58,17 @@ loadImage()
 
 loadShader()
 
+loadSound()
+
 map()
 
 mask()
 
 noise()
+
+pause()
+
+play()
 
 pop() (p5.js specific)
 
@@ -66,11 +82,15 @@ push() (arrays in javascript)
 
 random()
 
+randomSeed()
+
 rect()
 
 rectMode()
 
 rotate()
+
+setInput()
 
 setUniform()
 
@@ -107,6 +127,10 @@ frameCount
 
 height
 
+key
+
+keyCode
+
 length
 
 mouseX
@@ -120,13 +144,21 @@ width
 
 abscissa
 
+API
+
 argument
 
 blend mode
 
 canvas
 
+class
+
+client
+
 condition
+
+event
 
 filter
 
@@ -134,7 +166,19 @@ fps
 
 function
 
+function "callback"
+
+function "handler"
+
+GUI
+
+level
+
+library
+
 loop
+
+object
 
 mask
 
@@ -143,6 +187,8 @@ ordinate
 p5.Graphics
 
 pixel
+
+server
 
 shader
 

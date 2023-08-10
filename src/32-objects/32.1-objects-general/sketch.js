@@ -1,10 +1,3 @@
-let particle = {
-  x: 300,
-  y: 400,
-  diameter: 30,
-  color: "color(150)"
-};
-
 let person = {
   name: "Aurélien",
   age: 32,
@@ -13,4 +6,11 @@ let person = {
     country: "Portugal",
     city: "Leiria"
   }
+};
+
+let particle = {
+  x: 300,
+  y: 400,
+  diameter: 30,
+  color: "color(150)"
 };
