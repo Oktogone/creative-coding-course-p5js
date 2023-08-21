@@ -4,5 +4,4 @@ function setup() {
 
 function draw() {
   ellipse(mouseX, mouseY, 100, 100);
-  console.log(frameCount);
 }
