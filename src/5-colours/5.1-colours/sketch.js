@@ -3,9 +3,8 @@ function setup() {
 }
 
 function draw() {
-  background(250, 100, 100, 50);
-  stroke(255, 240, 0);
-  strokeWeight(5);
-  fill(0, 100, 255);
-  ellipse(mouseX, mouseY, 100, 100);
+  background(235, 64, 52);
+  fill(245, 182, 10);
+  stroke(253, 255, 110);
+  ellipse(width * 0.5, height * 0.5, 100, 100);
 }

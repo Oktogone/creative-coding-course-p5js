@@ -15,5 +15,5 @@ function hello(name){
 }
 
 function randomInt(min, max) {
-  return Math.floor(random(min, max));
+  return int(random(min, max));
 }

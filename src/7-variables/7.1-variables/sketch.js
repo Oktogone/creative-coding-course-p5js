@@ -1,21 +1,21 @@
-let score = 0;
-score = 10;
-score += 1;
-score += 10;
-//let score = 2;
-//scor;
-let name = "Aurélien";
-typeof(score);
-typeof(name);
-score = 0;
-let points = 10;
-score + points;
-let greet = "Bonjour";
-greet + name;
-greet + " " + name;
-let userInput = "2";
-typeof(userInput);
-userInput += 1;
-userInput = "2.1";
-let userInputInt = parseInt(userInput);
-let userInputFloat = parseFloat(userInput);
+let score;
+
+function setup() {
+  createCanvas(600, 600);
+
+  // score
+  score = 0;
+  score = score + 1;
+  score += 10;
+  score *= 2.5;
+  score = int(score);
+  console.log(score);
+
+  // name
+  let name = "Aurélien";
+  console.log(name);
+}
+
+function draw() {
+  background(250);
+}

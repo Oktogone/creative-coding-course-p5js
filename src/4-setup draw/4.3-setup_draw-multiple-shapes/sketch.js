@@ -7,6 +7,6 @@ function draw() {
 
   //drawing two shapes on top of each other
   ellipse(mouseX, mouseY, 100, 100);
-  //ellipse(0, 0, 100, 100);
+  //ellipse(300, 300, 100, 100);
   ellipse(width * 0.5, height * 0.5, 100, 100);
 }
