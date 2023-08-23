@@ -1,22 +1,19 @@
-let fontRegular, fontItalic;
+let font;
 let sampleText;
 
 function preload(){
-  fontRegular = loadFont("../../assets/font/IBMPlexMono-Regular.ttf");
-  fontItalic = loadFont("../../assets/font/IBMPlexMono-Italic.ttf");
+  font = loadFont("../../assets/font/IBMPlexMono-Regular.ttf");
 }
 
 function setup() {
   createCanvas(600, 600);
-  textFont(fontRegular);
+  textFont(font);
   textSize(20);
-  sampleText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+  textAlign(CENTER, CENTER);
+  sampleText = "Lorem ipsum dolor sit amet.";
 }
 
 function draw() {
   background(250);
-  let x = 50;
-  let y = height * 0.5;
-  ellipse(50, height * 0.5, 10, 10);
-  text(sampleText, x, y);
+  text(sampleText, width * 0.5, height * 0.5);
 }

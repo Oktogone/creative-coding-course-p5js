@@ -6,7 +6,10 @@ function setup() {
 function draw() {
   background(20);
   for(let i = 0; i < 10; i++){
-    fill(random(255));
-    ellipse(random(0, width), random(0, height), 100, 100);
+    let shade = random(255);
+    let x = random(0, width);
+    let y = random(0, height);
+    fill(shade);
+    ellipse(x, y, 100, 100);
   }
 }

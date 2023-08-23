@@ -1,4 +1,4 @@
-let colours;
+let colours, indice;
 
 function setup() {
   createCanvas(600, 600);
@@ -13,10 +13,14 @@ function setup() {
     color(152, 152, 152),
     color(106, 159, 58)
   ];
-  frameRate(10);
+  indice = 1;
+  frameRate(1);
 }
 
 function draw() {
-  let colorPicker = Math.floor(random(0, colours.length));
-  background(colours[colorPicker]);
+  background(colours[indice]);
+  indice += 1;
+  if(indice > colours.length -1){
+    indice = 0;
+  }
 }
