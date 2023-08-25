@@ -3,6 +3,8 @@
 [Official documentation p5.js](https://p5js.org/reference/)
 [Color picker tool](https://g.co/kgs/Ax3EoK)
 [Google fonts](https://fonts.google.com/)
+[ShareX](https://getsharex.com/)
+[Digital Colour Meter](https://support.apple.com/en-gb/guide/digital-color-meter/welcome/mac)
 [p5.GUI - library for GUI](https://github.com/bitcraftlab/p5.gui)
 [p5.capture - library for exports](https://github.com/tapioca24/p5.capture)
 [Mappa - library for maps](https://github.com/cvalenzuela/Mappa)

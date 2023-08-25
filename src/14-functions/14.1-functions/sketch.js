@@ -10,10 +10,6 @@ function hello(){
   console.log("hello");
 }
 
-function hello(name){
-  console.log("hello " + name);
-}
-
 function randomInt(min, max) {
   return int(random(min, max));
 }
