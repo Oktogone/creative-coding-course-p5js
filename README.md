@@ -28,62 +28,107 @@ Ce cours est destiné à des étudiant.e.s en design et arts visuels ou autres s
 _english_
 
 <ol>
+  Section 1: Introduction & set-up
+  <li>What is creative coding? Introduction & Inspirations</li>
+  <li>Setting up the tools</li>
+  <br>
+  Section 2: The fundamentals
+  <li>setup() and draw()</li>
+  <li>Colours</li>
+  <li>Geometry & Transformations</li>
+  <li>Variables</li>
+  <li>Text</li>
+  <li>Conditions</li>
+  <li>random() and map()</li>
+  <li>Arrays</li>
+  <li>Loops</li>
+  <li>Project: Matt DesLauriers</li>
+  <li>Functions</li>
+  <li>GUI and user control</li>
+  <li>Exports</li>
+  <br>
+  Section 3: Oscillating systems
+  <li>Oscillations: cos() and sin()</li>
+  <li>Project : Luce Terrasson</li>
+  <br>
+  Section 4: Grid systems
+  <li>First graphical grid</li>
+  <li>noise()</li>
+  <li>Noise ASCII grid</li>
+  <li>Project: Data Flaw</li>
+  <br>
+  Section 5: Image processing
+  <li>Displaying images and videos</li>
+  <li>Pixel manipulation</li>
+  <li>Image rasterization</li>
+  <li>Filters, masks and blend modes</li>
+  <br>
+  Section 6: Interactive typography
+  <li>Keyboard interaction</li>
+  <li>Project: italiano.jpg</li>
+  <br>
+  Section 7: Sound processing
+  <li>Sound processing</li>
+  <li>Sound visualisation demos</li>
+  <br>
+  Section 8 : Particle systems
+  <li>Objects and classes</li>
+  <li>Project: Particle animation</li>
+  <br>
+</ol>
+
+
+_français_
+
+<ol>
   Section 1
   <li>test</li>
   <li>test</li>
+  <br>
   Section 2
   <li>test</li>
   <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <br>
+  Section 3
+  <li>test</li>
+  <li>test</li>
+  <br>
+  Section 4
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <br>
+  Section 5
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+  <br>
+  Section 6
+  <li>test</li>
+  <li>test</li>
+  <br>
+  Section 7
+  <li>test</li>
+  <li>test</li>
+  <br>
+  Section 8
+  <li>test</li>
+  <li>test</li>
+  <br>
 </ol>
 
-Section 1: Introduction & set-up
-1. What is creative coding? Introduction & Inspirations
-2. Setting up the tools
-
-Section 2 - The basics
-3. setup() and draw()
-4. Colours
-5. Geometry & Transformations
-6. Variables
-7. Text
-8. Conditions
-9. random() and map()
-10. Arrays
-11. Loops
-12. Project: Matt DesLauriers
-13. Functions
-14. GUI and user control
-15. Exports
-
-Section 3: Oscillating systems
-16. Oscillations: cos() and sin()
-17. Project : Luce Terrasson
-
-Section 4 : Grid systems
-18. First graphical grid
-19. noise()
-20. Noise ASCII grid
-21. Project: Data Flaw
-
-Section 5: Image processing
-22. Displaying images and videos
-23. Pixel manipulation
-24. Image rasterization
-25. Filters, masks and blend modes
-
-Section 6: Interactive typography
-26. Keyboard interaction
-27. Project: italiano.jpg
-
-Section 7: Sound processing
-28. Sound processing
-29. Sound visualisation demos
-
-Section 8 : Particle systems
-30. Objects and classes
-31. Project: Particle animation
-
-_français_
 Section 1 : Introduction & mise en place
 1. Qu'est-ce que le code créatif ? Introduction & Inspirations
 2. Mise en place des outils
