@@ -1,4 +1,4 @@
-**useful functions**
+# useful functions
 
 background()
 
@@ -117,7 +117,7 @@ triangle()
 vertex()
 
 
-**useful variables**
+# useful variables
 
 frameCount
 
@@ -136,7 +136,7 @@ mouseY
 width
 
 
-**glossary**
+# glossary
 
 <b>abscissa</b><br>
 Value that defines an horizontal position (from left to right) on-screen.
