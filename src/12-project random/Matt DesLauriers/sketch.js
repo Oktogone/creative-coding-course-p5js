@@ -1,3 +1,6 @@
+//Sketch inspired by the creation of Matt DesLauriers
+//https://www.mattdesl.com/
+
 let colours;
 
 function setup() {

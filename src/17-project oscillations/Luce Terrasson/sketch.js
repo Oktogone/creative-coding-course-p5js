@@ -1,3 +1,6 @@
+//Sketch inspired by the creation of Luce Terrasson
+//https://luceterrasson.com/
+
 let nbreLines, gapLine, lineHeight, lineWidth;
 let margin, bandWidth, bandHeight;
 

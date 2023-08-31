@@ -1,3 +1,6 @@
+//Sketch inspired by the creation of italiano.jpg
+//https://www.instagram.com/italiano.jpg/
+
 let steps, noiseScale;
 let textBuffer;
 
