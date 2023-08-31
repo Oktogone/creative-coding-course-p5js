@@ -56,8 +56,6 @@ loadFont()
 
 loadImage()
 
-loadShader()
-
 loadSound()
 
 map()
@@ -95,8 +93,6 @@ setInput()
 setUniform()
 
 setup()
-
-shader()
 
 sin()
 
@@ -169,6 +165,9 @@ In a computer network, a client is a connected device (computer, smartphone, tab
 condition
 Block of code that introduces logic into the program. A question is asked, and depending on the answer, the program's behaviour is adapted. In order to do this we use the "if" and "else" keywords.
 
+constructor
+When building an object from a class, the constructor is the function called to implement its attributes.
+
 event
 Event triggered by a user action, such as clicking the mouse or typing on the keyboard.
 
@@ -222,9 +221,6 @@ The basic unit of image definition. Each pixel contains 4 pieces of information,
 
 server
 In a computer network, a server is a computer that provides information (raw data, web pages, files) at the request of a client connected to the same network.
-
-shader
-Computer programs used to control the graphic rendering of objects drawn on screen. They are usually run on the computer's graphics card.
 
 sketch
 JavaScript file in which our p5.js program runs.

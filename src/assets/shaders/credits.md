@@ -1,1 +1,0 @@
-All shader code from this folder was sourced from **Adam Ferriss** on <a href="https://github.com/aferriss/p5jsShaderExamples">
