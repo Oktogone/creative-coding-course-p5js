@@ -28,11 +28,12 @@ Ce cours est destiné à des étudiant.e.s en design et arts visuels ou autres s
 _english_
 
 <ol>
-  Section 1: Introduction & set-up
+  <b>Section 1: Introduction & set-up</b>
   <li>What is creative coding? Introduction & Inspirations</li>
   <li>Setting up the tools</li>
   <br>
-  Section 2: The fundamentals
+
+  <b>Section 2: The fundamentals</b>
   <li>setup() and draw()</li>
   <li>Colours</li>
   <li>Geometry & Transformations</li>
@@ -47,31 +48,37 @@ _english_
   <li>GUI and user control</li>
   <li>Exports</li>
   <br>
-  Section 3: Oscillating systems
+
+  <b>Section 3: Oscillating systems</b>
   <li>Oscillations: cos() and sin()</li>
   <li>Project : Luce Terrasson</li>
   <br>
-  Section 4: Grid systems
+
+  <b>Section 4: Grid systems</b>
   <li>First graphical grid</li>
   <li>noise()</li>
   <li>Noise ASCII grid</li>
   <li>Project: Data Flaw</li>
   <br>
-  Section 5: Image processing
+
+  <b>Section 5: Image processing</b>
   <li>Displaying images and videos</li>
   <li>Pixel manipulation</li>
   <li>Image rasterization</li>
   <li>Filters, masks and blend modes</li>
   <br>
-  Section 6: Interactive typography
+
+  <b>Section 6: Interactive typography</b>
   <li>Keyboard interaction</li>
   <li>Project: italiano.jpg</li>
   <br>
-  Section 7: Sound processing
+
+  <b>Section 7: Sound processing</b>
   <li>Sound processing</li>
   <li>Sound visualisation demos</li>
   <br>
-  Section 8 : Particle systems
+
+  <b>Section 8 : Particle systems</b>
   <li>Objects and classes</li>
   <li>Project: Particle animation</li>
   <br>
