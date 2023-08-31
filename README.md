@@ -28,6 +28,7 @@ Ce cours est destiné à des étudiant.e.s en design et arts visuels ou autres s
 _english_
 
 <ol>
+
   <b>Section 1: Introduction & set-up</b>
   <li>What is creative coding? Introduction & Inspirations</li>
   <li>Setting up the tools</li>
@@ -88,97 +89,59 @@ _english_
 _français_
 
 <ol>
-  Section 1
-  <li>test</li>
-  <li>test</li>
+
+  <b>Section 1 : Introduction & mise en place</b>
+  <li>Qu'est-ce que le code créatif ? Introduction & Inspirations</li>
+  <li>Mise en place des outils</li>
   <br>
-  Section 2
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
+
+  <b>Section 2 - Les fondamentaux</b>
+  <li>setup() et draw()</li>
+  <li>Les couleurs</li>
+  <li>Geometrie & Transformations</li>
+  <li>Les variables</li>
+  <li>Le text</li>
+  <li>Les conditions</li>
+  <li>random() et map()</li>
+  <li>Les tableaux</li>
+  <li>Les boucles</li>
+  <li>Projet: Matt DesLauriers</li>
+  <li>Les fonctions</li>
+  <li>GUI et contrôle utilisateur</li>
+  <li>Exports</li>
   <br>
-  Section 3
-  <li>test</li>
-  <li>test</li>
+
+  <b>Section 3 : Systèmes oscillants</b>
+  <li>Oscillations: cos() et sin()</li>
+  <li>Projet : Luce Terrasson</li>
   <br>
-  Section 4
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
+
+  <b>Section 4 : Systèmes de grilles</b>
+  <li>Première grille graphique</li>
+  <li>noise()</li>
+  <li>Grille Noise ASCII</li>
+  <li>Projet: Data Flaw</li>
   <br>
-  Section 5
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
+
+  <b>Section 5 : Traitement de l'image</b>
+  <li>Affichage d'images et vidéos</li>
+  <li>Manipulation de pixels</li>
+  <li>Rastérisation d'images</li>
+  <li>Filtres, masques et modes de fusion</li>
   <br>
-  Section 6
-  <li>test</li>
-  <li>test</li>
+
+  <b>Section 6 : Typographie interactive</b>
+  <li>Interaction avec le clavier</li>
+  <li>Projet : italiano.jpg</li>
   <br>
-  Section 7
-  <li>test</li>
-  <li>test</li>
+
+  <b>Section 7 : Traitement du son</b>
+  <li>Le traitement du son</li>
+  <li>Démos de visualisations du son</li>
   <br>
-  Section 8
-  <li>test</li>
-  <li>test</li>
+
+  <b>Section 8 : Systèmes de particules</b>
+  <li>Les objets et classes</li>
+  <li>Projet: Animation de particules</li>
   <br>
 </ol>
-
-Section 1 : Introduction & mise en place
-1. Qu'est-ce que le code créatif ? Introduction & Inspirations
-2. Mise en place des outils
-
-Section 2 - Les fondamentaux
-3. setup() et draw()
-4. Les couleurs
-5. Géométrie & Transformations
-6. Les variables
-7. Le texte
-8. Les conditions
-9. random() et map()
-10. Les tableaux
-11. Les boucles
-12. Projet : Matt DesLauriers
-13. Les fonctions
-14. GUI et contrôle utilisateur
-15. Exports
-
-Section 3 : Systèmes oscillants
-16. Oscillations : cos() et sin()
-17. Projet : Luce Terrasson
-
-Section 4 : Systèmes de grilles
-18. Première grille graphique
-19. noise()
-20. Grille Noise ASCII
-21. Projet : Data Flaw
-
-Section 5 : Traitement de l'image
-22. Affichage d'images et vidéos
-23. Manipulation de pixels
-24. Rastérisation d'images
-25. Filtres, masques et modes de fusion
-
-Section 6 : Typographie interactive
-26. Interaction avec le clavier
-27. Projet : italiano.jpg
-
-Section 7 : Traitement du son
-28. Le traitement du son
-29. Démos de visualisations du son
-
-Section 8 : Systèmes de particules
-30. Les objets et classes
-31. Projet : Animation de particules
