@@ -27,14 +27,14 @@ Ce cours est destiné à des étudiant.e.s en design et arts visuels ou autres s
 # Syllabus
 _english_
 
-<ul>
+<ol>
   Section 1
   <li>test</li>
   <li>test</li>
   Section 2
   <li>test</li>
   <li>test</li>
-</ul>
+</ol>
 
 Section 1: Introduction & set-up
 1. What is creative coding? Introduction & Inspirations
