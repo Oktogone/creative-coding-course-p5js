@@ -10,13 +10,10 @@ function setup() {
 
 function draw(){
   background(250);
+  fill(20);
 }
 
-function toggleAudio() {
+function keyTyped() {
   if (audio.isPlaying()) audio.pause();
   else audio.play();
-}
-
-function keyPressed() {
-  toggleAudio();
 }
