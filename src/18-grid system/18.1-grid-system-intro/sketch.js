@@ -16,10 +16,7 @@ function draw() {
     for (let j = 0; j < rows; j++) {
       let x = i * cellW;
       let y = j * cellH;
-      push();
-      translate(x, y);
-      rect(0, 0, cellW, cellH);
-      pop();
+      rect(x, y, cellW, cellH);
     }
   }
 }

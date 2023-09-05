@@ -28,13 +28,10 @@ function draw() {
       let c = textBuffer.get(x, y);
       let b = brightness(c);
       if( b > 50){
-        push();
-        translate(x, y);
         let n = noise(x * radians(frameCount * 0.5) * noiseScale, y * radians(frameCount * 0.5) * noiseScale);
         let brightness = n * 255;
         fill(brightness);
-        rect(0, 0, steps, steps)
-        pop();
+        rect(x, y, steps, steps);
       }
     }
   }

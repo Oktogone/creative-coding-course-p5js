@@ -26,16 +26,17 @@ function draw() {
 
 function drawShape(){
   let shapeSelector = int(random(3));
-  if(shapeSelector == 0){
+  if(shapeSelector === 0){
     fill(20);
     ellipse(0, 0, cellW, cellH);
     fill(250);
     rect(0, 0, cellW, cellH);
   }
-  else if(shapeSelector == 1){
+  else if(shapeSelector === 1){
     fill(20);
     rect(0, 0, cellW, cellH);
     fill(250);
     ellipse(0, 0, cellW, cellH);
   }
+  else{}
 }

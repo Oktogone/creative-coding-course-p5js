@@ -10,6 +10,7 @@ function setup() {
   cellH = height / rows;
   noiseScale = 0.15;
   textSize(cellH);
+  textAlign(LEFT, TOP)
   chars = " ._:-+cab@XWÑ";
 }
 
@@ -18,8 +19,8 @@ function draw() {
   noStroke();
   for (let i = 0; i < cols; i++) {
     for (let j = 0; j < rows; j++) {
-      let x = i * cellW + cellW * 0.5;
-      let y = j * cellH + cellH * 0.5;
+      let x = i * cellW;
+      let y = j * cellH;
       let n = noise((i + radians(frameCount)) * noiseScale, (j + radians(frameCount)) * noiseScale);
       let charSelector = int(map(n, 0, 1, chars.length, 0));
       fill(250);

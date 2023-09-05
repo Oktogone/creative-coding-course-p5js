@@ -2,7 +2,7 @@
 //https://romain-astouric.com/
 
 let rows, cols, cellH, cellW;
-let margin, gridWidth, gridHeight;
+let margin, drawWidth, drawHeight;
 let noiseScaleXY, noiseScaleZ;
 
 function setup() {
@@ -11,10 +11,10 @@ function setup() {
   rows = 30;
   cols = 30;
   margin = 50;
-  gridWidth = width - 2 * margin;
-  gridHeight = height - 2 * margin;
-  cellW = gridWidth / cols;
-  cellH = gridHeight / rows;
+  drawWidth = width - 2 * margin;
+  drawHeight = height - 2 * margin;
+  cellW = drawWidth / cols;
+  cellH = drawHeight / rows;
 
   noiseScaleXY = 0.05;
   noiseScaleZ = 0.15;
@@ -33,7 +33,7 @@ function draw() {
       let x = i * cellW + cellW * 0.5;
       let y = j * cellH + cellH * 0.5;
       let d = dist(mouseX, mouseY, x, y);
-      let scaleFactor = map(d, 0, 600, 0.8, 0);
+      let scaleFactor = map(d, 0, width, 0.8, 0);
       push();
       translate(x, y);
       scale(scaleFactor);

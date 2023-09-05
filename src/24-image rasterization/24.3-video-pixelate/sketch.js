@@ -15,7 +15,6 @@ function setup() {
 function draw() {
   background(20);
   noStroke();
-  steps = int(map(mouseY, 0, height, 10, 50));
   video.loadPixels();
   for (let i = 0; i < cols; i++) {
     for (let j = 0; j < rows; j++) {
@@ -28,13 +27,9 @@ function draw() {
         video.pixels[index + 2],
         video.pixels[index + 3]
       );
-      let b = brightness(c);
-      let diameter = map(b, 0, 100, 1, 0) * cellH;
-      push();
-      translate(x + cellW * 0.5, y + cellH * 0.5);
-      fill(250);
-      ellipse(0, 0, diameter, diameter);
-      pop();
+      let b = map(brightness(c), 0, 100, 0, 255);
+      fill(b);
+      rect(x, y, cellW, cellH);
     }
   }
 }

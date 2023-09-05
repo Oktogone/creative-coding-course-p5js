@@ -28,8 +28,6 @@ function draw() {
       let c = textBuffer.get(x, y);
       let b = brightness(c);
       if( b > 50){
-        push();
-        translate(x, y);
         let n = noise(x * radians(frameCount * 0.5) * noiseScale, y * radians(frameCount * 0.5) * noiseScale);
         if(n > 0.5) {
           stroke(20);
@@ -43,8 +41,7 @@ function draw() {
           stroke(255, 0, 0);
           fill(100, 0, 0);
         }
-        rect(0, 0, steps, steps)
-        pop();
+        rect(x, y, steps, steps);
       }
     }
   }

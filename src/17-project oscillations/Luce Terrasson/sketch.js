@@ -2,21 +2,20 @@
 //https://luceterrasson.com/
 
 let nbreLines, gapLine, lineHeight, lineWidth;
-let margin, bandWidth, bandHeight;
+let margin, drawWidth, drawHeight;
 
 function setup() {
   createCanvas(600, 600);
 
   nbreLines = 100;
   margin = 50;
-  bandWidth = width - 2 * margin;
-  bandHeight = height - 2 * margin;
-  gapLine = bandWidth / nbreLines;
+  drawWidth = width - 2 * margin;
+  drawHeight = height - 2 * margin;
+  gapLine = drawWidth / nbreLines;
   lineWidth = 3;
-  lineHeight = bandHeight * 0.33;
+  lineHeight = drawHeight / 3;
 
   stroke(0);
-  randomSeed(1);
   noLoop();
 }
 
