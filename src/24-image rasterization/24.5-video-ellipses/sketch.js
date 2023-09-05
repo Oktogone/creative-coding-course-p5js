@@ -1,30 +1,24 @@
 let video;
 let rows, cols, cellH, cellW;
-let chars;
 
 function setup() {
   createCanvas(600, 600);
-
   video = createCapture(VIDEO);
   video.size(width, height);
   video.hide();
-
   rows = 40;
   cols = 60;
   cellW = width / cols;
   cellH = height / rows;
-
-  chars = " ._:-+cab@XWÑ";
-  textSize(cellH);
-  textAlign(LEFT, TOP);
 }
 
 function draw() {
   background(20);
-  fill(250);
   noStroke();
-  video.loadPixels();
+  fill(250);
 
+  steps = int(map(mouseY, 0, height, 10, 50));
+  video.loadPixels();
   for (let i = 0; i < cols; i++) {
     for (let j = 0; j < rows; j++) {
       let x = i * cellW;
@@ -37,8 +31,8 @@ function draw() {
         video.pixels[index + 3]
       );
       let b = brightness(c);
-      let charSelector = int(map(b, 0, 100, chars.length, 0));
-      text(chars.charAt(charSelector), x, y);
+      let diam = map(b, 0, 100, cellH, 0);
+      ellipse(x + cellW * 0.5, y + cellH * 0.5, diam, diam);
     }
   }
 }
