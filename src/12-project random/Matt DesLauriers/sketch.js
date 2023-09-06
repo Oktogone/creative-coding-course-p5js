@@ -29,7 +29,7 @@ function draw() {
   let nbreRect = random(20, 40);
   for(let i = 0; i < nbreRect; i++){
     //pick and fill with a random colour
-    let colorSelector = Math.floor(random(0, colours.length));
+    let colorSelector = int(random(0, colours.length));
     let c = colours[colorSelector];
     fill(c);
 

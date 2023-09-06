@@ -1,4 +1,4 @@
-let colours, nextColour;
+let colours;
 
 function setup() {
   createCanvas(600, 600);
@@ -7,13 +7,13 @@ function setup() {
     color(65, 129, 236)
   ];
   background(189, 213, 240);
-  nextColour = 0;
 
   //initialise text
   fontSize = 200;
   textFont('Georgia');
   textSize(fontSize);
   textAlign(CENTER, CENTER);
+
   blendMode(MULTIPLY);
 }
 
@@ -21,26 +21,21 @@ function draw() {
 
 }
 
-function drawCharacter(k){
-  //pick next colour
-  let c = colours[nextColour];
-  nextColour ++;
-  nextColour = nextColour % 2;
-
-  push();
-  translate(random(0, width), random(0, height))
-  rotate(radians(random(0,360)));
-  fill(c);
-  text(k.toUpperCase(), 0, 0);
-  pop();
-}
-
 function keyPressed(){
-  if(keyCode === DELETE || keyCode === BACKSPACE){
+  if(keyCode === BACKSPACE){
     clear();
     background(189, 213, 240);
   }
   if ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90)) {
-    drawCharacter(key);
+    //pick next colour
+    let colorSelector = int(random(0, colours.length));
+    let c = colours[colorSelector];
+
+    push();
+    translate(random(0, width), random(0, height))
+    rotate(radians(random(0,360)));
+    fill(c);
+    text(key, 0, 0);
+    pop();
   }
 }
