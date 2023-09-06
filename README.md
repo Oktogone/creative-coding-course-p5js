@@ -72,7 +72,7 @@ _english_
   <b>Section 6: Interactive typography</b>
   <li>Keyboard interaction</li>
   <li>Project: italiano.jpg</li>
-  <li>Démo d'un outil typographique</li>
+  <li>Typographic tool demo</li>
   <br>
 
   <b>Section 7: Sound processing</b>
@@ -134,6 +134,7 @@ _français_
   <b>Section 6 : Typographie interactive</b>
   <li>Interaction avec le clavier</li>
   <li>Projet : italiano.jpg</li>
+  <li>Démo d'un outil typographique</li>
   <br>
 
   <b>Section 7 : Traitement du son</b>
