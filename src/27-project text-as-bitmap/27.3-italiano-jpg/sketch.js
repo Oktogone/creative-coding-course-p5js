@@ -28,8 +28,19 @@ function draw() {
       let b = brightness(c);
       if(b > 50){
         let n = noise(i * noiseScale, j * noiseScale, radians(frameCount) * noiseScale);
-        let brightness = n * 255;
-        fill(brightness);
+        n = int(map(n, 0, 1, 0, 3));
+        if(n === 0) {
+          stroke(20);
+          fill(255, 0, 0);
+        }
+        else if(n === 1) {
+          stroke(20);
+          fill(255, 255, 255);
+        }
+        else{
+          stroke(255, 0, 0);
+          fill(100, 0, 0);
+        }
         rect(x, y, cellW, cellH);
       }
     }

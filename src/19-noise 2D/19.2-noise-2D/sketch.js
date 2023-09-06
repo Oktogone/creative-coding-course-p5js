@@ -18,8 +18,8 @@ function draw() {
       //let n = noise((i + radians(frameCount)) * noiseScale, j * noiseScale);
       //let n = noise((i + radians(frameCount)) * noiseScale, (j + radians(frameCount)) * noiseScale);
       let n = noise(i * noiseScale, j * noiseScale, radians(frameCount) * noiseScale);
-      //let brightness = n * 255;
-      let brightness = constrain(pow(20 * n, 2), 0, 255);
+      let brightness = n * 255;
+      //let brightness = constrain(pow(20 * n, 2), 0, 255);
       let x = i * cellW;
       let y = j * cellH;
       fill(brightness);
