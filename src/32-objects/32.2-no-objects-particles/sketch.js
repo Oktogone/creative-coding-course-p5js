@@ -1,18 +1,19 @@
-let nbreParticles;
+let particle;
 
 function setup() {
   createCanvas(600, 600);
-  posx = width * 0.5;
-  posy = height * 0.5;
-  nbreParticles = 100;
+
+  particle = {
+    x: 300,
+    y: 400,
+    diam: 30,
+    colour: color(250, 100, 0)
+  };
 }
 
 function draw() {
   background(20);
-  fill(250);
+  fill(particle.colour);
   noStroke();
-  for(let i = 0; i < nbreParticles; i++){
-    ellipse(random(0, width), random(0, height), 10, 10);
-  }
-  noLoop();
+  ellipse(particle.x, particle.y, particle.diam, particle.diam);
 }

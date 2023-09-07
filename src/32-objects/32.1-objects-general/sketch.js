@@ -4,13 +4,13 @@ let person = {
   sports: ["Basketball", "Football", "Swimming"],
   address: {
     country: "Portugal",
-    city: "Leiria"
+    city: "Lisbon"
   }
 };
 
 let particle = {
   x: 300,
   y: 400,
-  diameter: 30,
-  color: "color(150)"
+  diam: 30,
+  colour: color(250, 100, 0)
 };

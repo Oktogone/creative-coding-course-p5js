@@ -1,20 +1,14 @@
-let nbreParticles;
-let particles;
+let particle;
 
 function setup() {
   createCanvas(600, 600);
-  nbreParticles = 100;
-  particles = [];
-  for(let i = 0; i < nbreParticles; i++){
-    p = new Particle();
-    particles.push(p);
-  }
+
+  particle = new Particle();
 }
 
 function draw() {
   background(20);
-  for(let i = 0; i < particles.length; i++){
-    p = particles[i];
-    p.drawParticle();
-  }
+  fill(particle.colour);
+  noStroke();
+  ellipse(particle.x, particle.y, particle.diam, particle.diam);
 }

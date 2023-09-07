@@ -1,15 +1,10 @@
 class Particle{
 
   constructor(){
-    this.x = random(0, width);
-    this.y = random(0, width);
-    this.c = color(random(255));
-    this.diameter = random(2, 10);
+    this.x = random(50, width - 50);
+    this.y = random(50, height - 50);
+    this.colour = color(random(255), random(255), random(255));
+    this.diam = random(20, 60);
   }
 
-  drawParticle(){
-    fill(this.c);
-    noStroke();
-    ellipse(this.x, this.y, this.diameter, this.diameter);
-  }
 }
