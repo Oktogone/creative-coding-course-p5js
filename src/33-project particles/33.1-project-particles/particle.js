@@ -16,21 +16,20 @@ class Particle{
     if (this.y > height) this.y = 0;
     if (this.y < 0) this.y = height;
 
-    particles.forEach(p => {
-      let a = this.x - p.x;
-      let b = this.y - p.y;
-      let dist = Math.sqrt( a*a + b*b );
-      if(dist < 50){
+    for(let i = 0; i < particles.length; i++){
+      let p = particles[i];
+      let d = dist(this.x, this.y, p.x, p.y);
+      if(d < 60){
         strokeWeight(0.8);
         stroke(250);
         line(this.x, this.y, p.x, p.y);
       }
-      else if(dist >=50 && dist < 80){
+      else if(d >=60 && d < 90){
         strokeWeight(0.5);
         stroke(50);
         line(this.x, this.y, p.x, p.y);
       }
-    });
+    };
   }
 
   drawParticle(){

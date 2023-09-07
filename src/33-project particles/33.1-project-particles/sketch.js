@@ -1,12 +1,10 @@
-let posx, posy;
 let nbreParticles;
 let particles;
 
 function setup() {
   createCanvas(600, 600);
-  posx = width * 0.5;
-  posy = height * 0.5;
-  nbreParticles = 80;
+
+  nbreParticles = 50;
   particles = [];
   for(let i = 0; i < nbreParticles; i++){
     p = new Particle();
