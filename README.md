@@ -77,7 +77,7 @@ _english_
 
   <b>Section 7: Sound processing</b>
   <li>Sound processing</li>
-  <li>Sound project: Matt Des Lauriers</li>
+  <li>Sound project: Matt DesLauriers</li>
   <li>Sound visualisation demos</li>
   <br>
 
@@ -140,7 +140,7 @@ _français_
 
   <b>Section 7 : Traitement du son</b>
   <li>Le traitement du son</li>
-  <li>Projet son: Matt Des Lauriers</li>
+  <li>Projet son: Matt DesLauriers</li>
   <li>Démos de visualisations du son</li>
   <br>
 
