@@ -41,7 +41,7 @@ function draw(){
   }
 }
 
-function keyTyped() {
+function keyPressed() {
   if (audio.isPlaying()) audio.pause();
   else audio.play();
 }

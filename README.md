@@ -135,13 +135,13 @@ _français_
   <b>Section 6 : Typographie interactive</b>
   <li>Interaction avec le clavier</li>
   <li>Projet : italiano.jpg</li>
-  <li>Démo d'un outil typographique</li>
+  <li>Démonstration d'outils typographiques</li>
   <br>
 
   <b>Section 7 : Traitement du son</b>
   <li>Le traitement du son</li>
   <li>Projet son: Matt DesLauriers</li>
-  <li>Démos de visualisations du son</li>
+  <li>Démonstration de visualisations du son</li>
   <br>
 
   <b>Section 8 : Systèmes de particules</b>

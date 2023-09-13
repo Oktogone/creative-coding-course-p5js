@@ -20,7 +20,7 @@ function draw(){
   ellipse(width * 0.5, height * 0.5, diameter, diameter);
 }
 
-function keyTyped() {
+function keyPressed() {
   if (audio.isPlaying()) audio.pause();
   else audio.play();
 }

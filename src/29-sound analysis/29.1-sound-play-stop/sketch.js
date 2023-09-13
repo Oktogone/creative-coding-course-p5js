@@ -13,7 +13,7 @@ function draw(){
   fill(20);
 }
 
-function keyTyped() {
+function keyPressed() {
   if (audio.isPlaying()) audio.pause();
   else audio.play();
 }
